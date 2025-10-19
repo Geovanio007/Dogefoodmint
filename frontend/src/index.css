@@ -113,3 +113,33 @@ code {
         border-bottom-color: inherit;
     }
 }
+/* Custom gold colors for DogeFood theme */
+@layer utilities {
+  .text-gold-400 {
+    color: #fbbf24;
+  }
+  .text-gold-500 {
+    color: #f59e0b;
+  }
+  .bg-gold-400 {
+    background-color: #fbbf24;
+  }
+  .bg-gold-500 {
+    background-color: #f59e0b;
+  }
+  .border-gold-400 {
+    border-color: #fbbf24;
+  }
+  .from-gold-400 {
+    --tw-gradient-from: #fbbf24;
+  }
+  .to-gold-500 {
+    --tw-gradient-to: #f59e0b;
+  }
+  .hover\:from-gold-500:hover {
+    --tw-gradient-from: #f59e0b;
+  }
+  .hover\:to-amber-600:hover {
+    --tw-gradient-to: #d97706;
+  }
+}
