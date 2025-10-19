@@ -15,5 +15,6 @@
     "dotenv": "^17.2.3",
     "ethers": "^6.15.0",
     "hardhat": "^3.0.7"
-  }
+  },
+  "type": "module"
 }
