@@ -1,7 +1,8 @@
-require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config({ path: ".env.deployment" });
+import "@nomicfoundation/hardhat-toolbox";
+import dotenv from "dotenv";
+dotenv.config({ path: ".env.deployment" });
 
-module.exports = {
+export default {
   solidity: {
     version: "0.8.20",
     settings: {
